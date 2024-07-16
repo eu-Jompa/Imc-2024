@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- FOnte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
+    <!-- Fonte -->
+    <title>Calculo IMC</title>
+</head>
+<body>
+    <div class="imc">
+        <h1>CALCULO IMC</h1>
+        <div class="pesoCss">
+            <span>Peso</span>
+        <input id="peso" type="number" placeholder="Informe seu peso">
+        </div>
+        <div class="alturaCss">
+            <span>Altura</span>
+        <input id="altura" type="number" placeholder="Informe sua altura">
+        </div>
+        
+        <button id="calculo">Calcular</button>
+        <div class="resultado">
+            <span></span>
+        </div>
+    </div>
+    <div class="valores">
+        <div class="grau3">
+            <p>Obesidade
+                grau III</p>
+            <p>Acima de 40,0</p>
+        </div>
+        <div class="grau2">
+            <p>Obesidade
+                grau II
+            <p>Entre 35,0 e 39,9</p>
+        </div>
+        <div class="grau1">
+            <p>Obesidade grau I</p>
+            <p>Entre 30,0 e 34,9</p>
+        </div>
+        
+        <div class="sobrepeso">
+            <p>Sobrepeso</p>
+            <p>Entre 25,0 e 29,9</p>
+        </div>
+        <div class="normal">
+            <p>Peso Normal</p>
+            <p>Entre 18,6 e 24,9</p>
+        </div>
+    
+        <div class="abaixo">
+            <p>Abaixo do Normal</p>
+            <p>18,5 ou menos</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
